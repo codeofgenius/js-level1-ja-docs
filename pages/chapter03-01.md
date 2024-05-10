@@ -345,7 +345,7 @@ btn.onclick = function() {
 
 左側のボックスに数値を入力して、「=」ボタンをクリックします。右側のボックスに「たし算」の答えが表示されている場合、正しく動作しています
 
-![](https://lh7-us.googleusercontent.com/LpINdjlMqGQ2U7koodwhoGWd__PPC6i8uMG1zum26XFsSOWCZDIDSX3C8duwAYVjVjxaRWrwUOC8NIixrR_g8JK2XfR8_cRm6pgkwfWGtH6A18maxhpKb7HyYTZ5CpMmzM3111HV3W_9l1c)
+![](https://lh7-us.googleusercontent.com/EjEskRZAY87R2CG4Za1BIx7WMI0f-kiY-UZKd0ctcWSjkk2wvUsjzvgx-TGyaGvpYUk8wtSF1qvbp2XChrSh2UydoyCwe11Bg0r6O8s2B99Z54g-j-G3qflm12jJWupZmtl8H-7aLPcH0mo)
 
 * * *
 
@@ -458,7 +458,7 @@ HTMLとJavaScriptを利用して画面で動作するプログラムを作成で
 
 数字を入力して「=」ボタンをクリックします
 
-![](https://lh7-us.googleusercontent.com/vBSCrMXtLj5OCeL0f6XWthHXQqQw1Xqd6FJwtld3btcOsEgdUfVOpqCNB5JSx4VW-z-r5ksYplIjgRc76r0quxVEb-QKgJY4e8h8PDlsoGE_qMa8PxdKTk4CKlu-KmXjL4bxqXZfaXm3mHI)
+![](https://lh7-us.googleusercontent.com/YTXB5LTcpvw-rSkkEUEm0IZf0LiUlKvnh4RI1JfMZuh4lMaW6noOHs8owELNn0cWJhWHvSb5TsVjpkE7qq0tdQraYF66KtRFnmAjbeAWs_dTBjcJtYFm2Bbhi4XVFrCoFwwakVXTnOAQKa8)
 
 * * *
 

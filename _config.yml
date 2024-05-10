@@ -40,4 +40,4 @@ defaults:
       path: "pages"
       type: "pages"
     values:
-      identifier: "value"
+      identifier: "study"
