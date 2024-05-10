@@ -1,0 +1,68 @@
+@charset "utf-8";
+body {
+  font-family:-apple-system, BlinkMacSystemFont, 'M PLUS 1p', 'Roboto',
+    '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic,
+    'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo,
+    'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+pre,
+code {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 16px;
+  line-height:22px;
+}
+pre {
+  overflow-x: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+code {
+  padding: 1em !important;
+  border-radius: 0 0 8px 8px;
+}
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0D1117;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px 8px 0 0;
+}
+.code-header-lang {
+  color: #D83317;
+  padding: 8px 16px;
+  background-color: #0D1117;
+  border-radius: 8px 0 0 0;
+}
+.code-header-control {
+  padding: 8px 16px;
+  background-color: #0D1117;
+  border-radius: 0 8px 0 0;
+  display:flex;
+}
+.code-header-file {
+  color: #fff;
+  background-color: #0D1117;
+  margin-right: 20px;
+}
+.copy-button{
+  font-size:24px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.copy-button:hover{
+  color: #ccc;
+}
+.copy-button.success{
+  color:#0033FF;
+}
+.copy-button.failed{
+  color:#CC0000;
+}
