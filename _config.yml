@@ -33,3 +33,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
+
+defaults:
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      identifier: "value"
