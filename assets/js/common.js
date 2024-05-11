@@ -115,8 +115,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.querySelector("#pageNav").innerHTML +=
       `<ol class="content-ol">${contents}</ol>`;
+
+    document.getElementById("modal-body").innerHTML +=
+      `<ol class="content-ol">${contents}</ol>`;
   }
-  const modalLinks = document.querySelectorAll(".modal-body ol li a");
+
+  const modalLinks = document.querySelectorAll("#modal-body ol li a");
   if (modalLinks && modalLinks.length) {
     modalLinks.forEach((link, i) => {
       link.addEventListener("click", () => {
