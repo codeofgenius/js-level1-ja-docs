@@ -7,11 +7,14 @@
   {% include navbar.html %}
   <div class="container-fluid pb-5 pt-120" id="main">
     <div class="row g-5">
+      <!-- main -->
       <div class="col-lg-6 offset-lg-2">
         <div class="main-content p-5 border border-secondary-subtle rounded-3">
           {{ content }}
         </div>
       </div>
+      <!-- end main -->
+      <!-- menu -->
       <div class="col-lg-3 d-none d-lg-block">
         <div class="position-sticky sticky-top-6">
           <div class="main-content px-4 py-3 border bordexr-secondary-subtle rounded-3" id="pageNav">
@@ -22,16 +25,17 @@
           </div>
         </div>
       </div>
+      <!-- end menu -->
+      <!-- menu btn less than md -->
       <div class="d-block d-lg-none d-xl-none d-xxl-none sticky-bottom text-end" style="bottom:20px;">
         <a href="#" role="button" style="margin-right:20px;" data-bs-toggle="modal" data-bs-target="#menuModal">
           <i class="fa-solid fa-compass" style="font-size:5em"></i>
         </a>
       </div>
+      <!-- end menu btn less than md -->
     </div>
   </div>
-  
-  
-  
+  <!-- modal window -->
   <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
       <div class="modal-content">
@@ -49,13 +53,7 @@
         </div>
     </div>
   </div>
-</div>
-  
-  
-  
-  
-  
-  </div>
+  <!-- end modal window -->
   {% include footer1.html %}
   {% include footer2.html %}
 </body>
