@@ -64,7 +64,7 @@
             <li><a href="#">TOP</a></li>
             <li><a href="#">TOP</a></li>
             <li><a href="#">TOP</a></li>
-            <li><a href="#" onclick="() => document.getElementById('menuModal').modal('hide')">TOP</a></li>
+            <li><a href="#" onclick="bootstrap.Modal.getOrCreateInstance(document.getElementById('menuModal')).hide();return true;">TOP</a></li>
             <li><a href="#" data-bs-dismiss="modal">TOP</a></li>
           </ol>
         </div>
