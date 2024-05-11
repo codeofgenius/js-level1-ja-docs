@@ -78,6 +78,9 @@ code {
 .main-content {
   background-color: var(--bs-body-bg);
 }
+.content-ol {
+  padding-left:0;
+}
 .content-list {
     list-style: none;
 }
