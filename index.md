@@ -6,7 +6,9 @@ description: トップ / JavaScriptレベル1　基礎文法1
 
 # JavaScript レベル1
 
-
+<div class="text-center mx-5">
+  <a href="https://www.yahoo.co.jp/" class="btn btn-primary">Yahoo</a>
+</div>
 <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
   <div class="list-group">
   {% for page in site.pages %}
