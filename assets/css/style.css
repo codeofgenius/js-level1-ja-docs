@@ -72,3 +72,6 @@ code {
 .pt-120 {
   padding-top: 120px
 }
+.sticky-top-5 {
+  top: 4rem;
+}

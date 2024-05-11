@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include navbar.html %}
+  <div class="container-fluid pb-5 pt-120" id="main">
+    <div class="row g-5">
+      <div class="col-md-8">
+      {{ content }}
+      </div>
+      <div class="col-md-4">
+        <div class="position-sticky sticky-top-5">
+        動的に作成する
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer1.html %}
+  {% include footer2.html %}
+</body>
+</html>

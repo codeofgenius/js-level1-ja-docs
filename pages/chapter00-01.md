@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 00章_はじめる前に / はじめる前に / JavaScriptレベル1
 description: 00章_はじめる前に / はじめる前に / JavaScriptレベル1
 ---
