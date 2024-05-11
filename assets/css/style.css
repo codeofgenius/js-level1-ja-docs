@@ -82,7 +82,20 @@ code {
   padding-left:0;
 }
 .content-list {
-    list-style: none;
+  list-style: none;
+  position: relative;
+  padding-left: 0.6em;
+}
+.content-list:before {
+  border-radius: 50%; /*丸くする*/
+  width: 5px; /*点の幅*/
+  height: 5px; /*点の高さ*/
+  display: block;
+  position: absolute; /*絶対配置*/
+  left: 0; /*点の位置*/
+  top: 0.6em; /*点の位置*/
+  content: "";
+  background: #1ec4e6; /*点の色*/
 }
 .contents1 {
     margin-left: 0px;
