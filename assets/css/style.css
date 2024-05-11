@@ -99,6 +99,10 @@ code {
   content: "";
   background-color: var(--bs-primary);
 }
+.content-anchor {
+  margin-top:120px;
+  padding-top:120px;
+}
 .contents1 {
     margin-left: 0px;
     text-decoration: none;

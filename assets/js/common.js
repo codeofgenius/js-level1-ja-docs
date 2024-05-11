@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
           break;
       }
       contents += `<li class="content-list"><a class="${className} list-circle" href="#head${i}">${head.textContent}</a></li>`;
-      head.innerHTML += `<a id="head${i}"></a>`;
+      head.innerHTML += `<a id="head${i}" class="content-anchor"></a>`;
     });
     document.querySelector("#pageNav").innerHTML +=
       `<ol class="content-ol">${contents}</ol>`;
