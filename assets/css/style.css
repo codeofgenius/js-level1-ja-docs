@@ -78,27 +78,30 @@ code {
 .main-content {
   background-color: var(--bs-body-bg);
 }
-
-
-li {
+.content-list {
     list-style: none;
 }
-
 .contents1 {
     margin-left: 0px;
+    text-decoration: none;
 }
 .contents2 {
-    margin-left: 15px;
+    margin-left: 0;
+    text-decoration: none;
 }
 .contents3 {
-    margin-left: 30px;
+    margin-left: 10px;
+    text-decoration: none;
 }
 .contents4 {
-    margin-left: 45px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 .contents5 {
-    margin-left: 60px;
+    margin-left: 30px;
+    text-decoration: none;
 }
 .contents6 {
-    margin-left: 75px;
+    margin-left: 40px;
+    text-decoration: none;
 }

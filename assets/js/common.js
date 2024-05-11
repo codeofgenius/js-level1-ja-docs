@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
           className = `contents6`;
           break;
       }
-      contents += `<li><a class="${className}" href="#head${i}">${head.textContent}</a></li>`;
+      contents += `<li class="content-list"><a class="${className}" href="#head${i}">${head.textContent}</a></li>`;
       head.innerHTML += `<a id="head${i}"></a>`;
     });
     document.querySelector("#pageNav").innerHTML += `<ol>${contents}</ol>`;
