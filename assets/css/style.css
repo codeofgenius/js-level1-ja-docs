@@ -4,8 +4,8 @@ body {
     '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic,
     'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo,
     'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  background-color: var(--bs-secondary-bg);
 }
-
 pre,
 code {
   font-family: "Inconsolata", monospace;
@@ -75,3 +75,7 @@ code {
 .sticky-top-6 {
   top: 6rem;
 }
+.main-content {
+  background-color: var(--bs-body-bg);
+}
+
