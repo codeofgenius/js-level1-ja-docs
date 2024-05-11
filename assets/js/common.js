@@ -116,4 +116,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#pageNav").innerHTML +=
       `<ol class="content-ol">${contents}</ol>`;
   }
+  const modalLinks = document.querySelectorAll(".modal-body ol li a");
+  if (modalLinks && modalLinks.length) {
+    modalLinks.forEach((link, i) => {
+      link.addEventListener("click", () => {
+        bootstrap.Modal.getOrCreateInstance(
+          document.getElementById("menuModal"),
+        ).hide();
+        return true;
+      });
+    });
+  }
 });
