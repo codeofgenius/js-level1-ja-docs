@@ -23,9 +23,37 @@
         </div>
       </div>
       <div class="d-block d-lg-none d-xl-none d-xxl-none sticky-bottom text-end" style="bottom:20px;">
-        <a class="" href="#" role="button" style="margin-rigth:20px;"><i class="fa-solid fa-compass" style="font-size:5em"></i></a>
+        <a href="#" role="button" style="margin-rigth:20px;" data-bs-toggle="modal" data-bs-target="#menuModal">
+          <i class="fa-solid fa-compass" style="font-size:5em"></i>
+        </a>
       </div>
     </div>
+  </div>
+  
+  
+  
+  <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  
+  
   </div>
   {% include footer1.html %}
   {% include footer2.html %}
