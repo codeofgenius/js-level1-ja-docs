@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ2_ボール作成 / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ2_ボール作成 / JavaScriptレベル1
 ---
@@ -93,7 +93,7 @@ macの場合、「command」キーを押しながら、「s」をクリック
 
 作成したプログラムを実行します。まずは、先ほど、ゲームを実行したタブを表示します
 
-![](https://lh7-us.googleusercontent.com/T2tlZOHNXdXnW-k5m97-t8gaah0QSvD4oqCGUUI1lemsPUGTxLUn2sVdeY2Tcly9AhroATjNF3x5R_mAcZod8QCo72vV7o7b5EzSpBfT3jyskPWdihr9e9Z72W6k4ATwrgNIkcvdiTAieqs)
+![](https://lh7-us.googleusercontent.com/qm-zTdPksaNNr2KIkGrCh6y1IQYqryCQWivR0BAhaB1mg3A2BVAhphV2BfgbOjJs5JIfI7WGqbobR4PYBvy6lCBWGZ3dhmvy0xtsxT2T3d1-nL-ohIcGen73JMzl6OnGddqOss2UMGxLfF0)
 
 * * *
 
@@ -105,7 +105,7 @@ macの場合、「command」キーを押しながら、「s」をクリック
 
 何かキーをクリックすると、スタート画面から、ゲーム画面に移動します。画面中央下部に「ボール」の画像が表示されていれば、正しく動作しています
 
-![](https://lh7-us.googleusercontent.com/67WctwzzYeaXZMCFLAg1HWjbYn-tR_athHBWnRhfJf80MSzhvIcao0YAOQbfYiv6KPOr2jZt-5Wyf3kqts9StIvQeOvrjLgaVf76rqM7tUGiBm-u0Votv1zy_naqGOsgt6YpB-X3_TlMP5g)
+![](https://lh7-us.googleusercontent.com/MYj9AB-4qGF89QE3LzBhJRAu4kZcrJUh_Xv-5yNPn3_wocuXUbxB3Sqi0Wq9CwEmZilxSuKljQ3honSvc0G-5sWVcJ6stzDjlCYQLYscdi48WT68ctu14YhSu6LEhw_uEiRgsslq322wz7U)
 
 * * *
 

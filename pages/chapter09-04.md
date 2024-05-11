@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ4_ボール発射 / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ4_ボール発射 / JavaScriptレベル1
 ---
@@ -61,7 +61,7 @@ mainScene.create = function() {
 
 ゲームを実行します。スペースキーをクリックすると、ボールを上方向に向かって発射します。その後、ボールは上下に移動します。パドルはボールを打ち返すことができます
 
-![](https://lh7-us.googleusercontent.com/bc03BvOY-VvvMzBNjb99ee1wSjIJPvUfxCbljqNZbmr_Fw_d-P_PdkbRkx5NDvoR_DwTdzSPAxh4CQT4CQnXQANS_WrWpkefvJj048NShK78_CMbAS0N2JhGg1glCuaY2inXcqLf_62IfSQ)
+![](https://lh7-us.googleusercontent.com/kNjpgaxcQA6KTZwhZ1IZCUEZkxT4w3PX9xpYBkPnVK1wvSDck1mPAExVI9CJlqiWC_7cGyXkAi2dYs9dDX6i-uzU9a94-JSUMh3jkPb193kaJ_-JH7KVGxANfOqyOpk7kY4ma7neBwAW2ig)
 
 * * *
 
@@ -149,7 +149,7 @@ mainScene.hitPaddle = function (paddle, ball) {
 
 ボールとパドルの位置に応じて、ボールに角度をつけて打ち返します
 
-![](https://lh7-us.googleusercontent.com/9hWbTGdbnkP1Rd0fn2NtSfglbZ7-wgu7urM2720grUrgQ4aKTwgn3vZWsUMVox9NBjIOZF6eGgW7jl-lgB2U3Dd1SAbhHeyxw-nq7pXnsxc9uPZ2piiykQhHHDg2NCT69ry_WRp6zeIGrMg)
+![](https://lh7-us.googleusercontent.com/9EEAoXX4n1orSlu4Yrv-uVK-k3QV3X6kjBzeCUgcvRxVh8ptncsvcuN29YYYqnv8-p4HnueWSk9o1183F_8PMTx8KS5xvx1CAQAwKE0pMAM0c8Lv2OCshyv4P-Kc8Gy2KHvPKPdEqoGDeFk)
 
 * * *
 

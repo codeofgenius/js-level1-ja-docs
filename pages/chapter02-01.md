@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 02章_画面に表示してみよう / 画面に表示してみよう / JavaScriptレベル1
 description: 02章_画面に表示してみよう / 画面に表示してみよう / JavaScriptレベル1
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 07章_繰り返し処理を行ってみよう / ステップ3 / JavaScriptレベル1
 description: 07章_繰り返し処理を行ってみよう / ステップ3 / JavaScriptレベル1
 ---
@@ -581,7 +581,7 @@ while( 繰り返し条件 ) {
 
 図で表すと以下のようになります
 
-![](https://lh7-us.googleusercontent.com/oYXRIL-EovDydtcHkeaJhsFuJfaZOIW6VY6ig8PA0es21D3CjUyYRM1hcDt69e1__PsF7UPCQFHljWdgxGyr4ObXzFEdy019BnapkLP1tFKzCY-wQZknHeGbFVjBaLOfLR20e91wOuk3jBg)
+![](https://lh7-us.googleusercontent.com/nYN6EKEleQw7MIId4f_XrKb7Z14vaGCOABZIN5N4JpHA16MwXP1k94IhQEXEBxgd4WAAxycUJHfrey6L3gbgCggmyS6vgqJzs_zMpIGW31EDgQ5ZMv8-oQ8rKshGT50RANY76ZMbp2EANwo)
 
 「繰り返し条件」が成立する場合、繰り返し処理が実行され、「処理」を実行します。「繰り返し条件」が成立しない場合、while文の繰り返し処理が終了します
 

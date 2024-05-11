@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 08章_最終問題 / 最終問題 / JavaScriptレベル1
 description: 08章_最終問題 / 最終問題 / JavaScriptレベル1
 ---

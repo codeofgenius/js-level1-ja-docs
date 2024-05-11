@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 03章_計算しよう / 計算しよう / JavaScriptレベル1
 description: 03章_計算しよう / 計算しよう / JavaScriptレベル1
 ---
@@ -345,7 +345,7 @@ btn.onclick = function() {
 
 左側のボックスに数値を入力して、「=」ボタンをクリックします。右側のボックスに「たし算」の答えが表示されている場合、正しく動作しています
 
-![](https://lh7-us.googleusercontent.com/EjEskRZAY87R2CG4Za1BIx7WMI0f-kiY-UZKd0ctcWSjkk2wvUsjzvgx-TGyaGvpYUk8wtSF1qvbp2XChrSh2UydoyCwe11Bg0r6O8s2B99Z54g-j-G3qflm12jJWupZmtl8H-7aLPcH0mo)
+![](https://lh7-us.googleusercontent.com/H3jELrqTnYRR2gs0HQvQOB3DxevRKm_oCUHiZwBwGwH6kC7cwJfYHPMRULc743mxOTz-H7Vj2xMN83UTcsW70R3a5IIeXQPqqrmeN3WNBsCUhDywpNt3VIVpJ2ZRWo_RYazWX8jkhXjHxnI)
 
 * * *
 
@@ -454,17 +454,17 @@ HTMLとJavaScriptを利用して画面で動作するプログラムを作成で
 
 画面を開いた状態
 
-![](https://lh7-us.googleusercontent.com/P4M0n2gWNuxhMW93j_fehUh4ansGPU7-nnN2EYDh7RVz1n31rzJSxnAhDGrk0lkCQ_f7KbU66oMgMq0qso5JGyRS0EO1SPteTxSdBBlNWAt9l8vQzPkBvPv4s1P1LovBax899JaHKLREuSE)
+![](https://lh7-us.googleusercontent.com/inA_DpBQNIk1qkNcDWVcwo6L__5KZXQL9ou9e2O4DyI6SWnaEVfGl0PAt27JN-fJwrZN5eQ_j8MNaialyCFtgEnOTYeeCU5tCmD-3p3c6F9woTaDFyjof34MtW3D4KRGEF6SwSHGV3xkF-4)
 
 数字を入力して「=」ボタンをクリックします
 
-![](https://lh7-us.googleusercontent.com/YTXB5LTcpvw-rSkkEUEm0IZf0LiUlKvnh4RI1JfMZuh4lMaW6noOHs8owELNn0cWJhWHvSb5TsVjpkE7qq0tdQraYF66KtRFnmAjbeAWs_dTBjcJtYFm2Bbhi4XVFrCoFwwakVXTnOAQKa8)
+![](https://lh7-us.googleusercontent.com/Kg_FiXXbq7bjnFnge51ZrOeMwpUtiQX8vSY_af69sfKu2H0jW-tfBAs8cpDAgsqO4L7V-iZeREsQlfigFoLAiSkpTLGOg28-C02rCEyE31oAEVmQAmhe9KximzVbRjAHqgI4600sFCEs0xQ)
 
 * * *
 
 「=」をクリックすると、かけ算の答えが右側のボックスに表示されます
 
-![](https://lh7-us.googleusercontent.com/e7fRynOJpojuDRP80zQGQK_0mQ92A6vzMY2KoWXsQCAI82KpuZmkxNMZfvICEqkw6BnIQGVzUeqOzeT4Txv4wjfCZ_03Ug69SETmqdYkK4AExTxUzmdzGAGEz78x6mE2NUUch3e8cgujHwA)
+![](https://lh7-us.googleusercontent.com/HbhXUhQ_JuoXyDT3K9inHZjR7E0XL28iHcPy-g7Ui2r31NeVMHaAyiCWq077H1TiP99MtCo_y6MgMFXW2U5EnaBYxeEJHbTSspzKPCp0ICIoVH7XUh4OEJhSoVZq08VJ2k-n_jQwvsSb00c)
 
 * * *
 

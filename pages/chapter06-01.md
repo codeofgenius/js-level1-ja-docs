@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 06章_if文の仕組み / ステップ1 / JavaScriptレベル1
 description: 06章_if文の仕組み / ステップ1 / JavaScriptレベル1
 ---
@@ -191,7 +191,7 @@ console.log( 3 <= 4 );
 
 選択（分岐）とは、「場合に応じて処理を分ける」ことです。「もし〇〇であれば、△△をする。そうでなければ、□□をする」ということを実現します
 
-![](https://lh7-us.googleusercontent.com/FCSFAPC4yU0H5Cxd3a7y32tEQpvN-XtpqiIGtd29Xh2HocVxlqS37FSFmCatAnAElDfhY0bhBiHbIpA89r8coSeLcJIK-OV6r8lIWUbjNd3vKYsIL33qwzX0hilQv9K6UHxscHXFbX_JfYg)
+![](https://lh7-us.googleusercontent.com/qk6rCn7wRHWCeLfeB79P3AGwr8NKBrwmk0ZVDnhxvyS530GoTK3soDbM8jTrzrRD-xkbsQyzQ4Xxki-Iky5uk4YxBw1OukJ1Cs8tt0_CjzDByKv9UAzraUr83fn8qcQSC_6GHS8vXvEgN_Y)
 
 * * *
 
@@ -199,7 +199,7 @@ console.log( 3 <= 4 );
 
 分岐処理は、何気ない日常生活にも登場します。私たちの生活の中では、いろんな場面で、「選択」を行い、処理を「分岐」しています。日常生活の中での「選択」と「分岐」を見てみましょう
 
-![](https://lh7-us.googleusercontent.com/mZKsWUGheTgMi8PtvpSiac9FgmyAiM-dK5gyBt4ikgZTSckn3_JIn5s3dg2vX6ZfTJrECEuV8mot4Nta3C_PMRpLHFtX3vvsmFa37c7SlG2_PiGIiu-MQ1s9a2SoYtSA6fJi6drhUAC7Q8k)
+![](https://lh7-us.googleusercontent.com/8sxDA87-MLL0sM8nMHjkPQ_a2LpHiqtxxpBntTiju4ZdgSa98yKslHxx5YPoLeCCG-Ok8fnSSDx3D0pVDr2wPEOo7S_cgtutrpmHNPIO_TbQ7Pu7HsuM9zf7s1ddh5w-q0woJyjTc8rNjVM)
 
 この例では「天気予報」によって行動を変えています。「天気予報が雨なら、かさを持って出かける」という「分岐」です。今回の場合、「そうでなければ、□□をする」に該当する処理はありません。「天気予報が雨の場合、かさを持って出かける」の部分だけを図で表しています
 
@@ -209,7 +209,7 @@ console.log( 3 <= 4 );
 
 交通信号のルールでの分岐処理の例です。「もし信号が青なら、進みます。そうでなければ、止まります」。信号が青色であれば「進む」という選択、そうでなければ、「止まる」という選択をします
 
-![](https://lh7-us.googleusercontent.com/fXu-gXbXOGvm4UoAdXTveXaKdcEWn7t_IN_r8duGwDgUpVeG56nVDJrm-_UmM7pwpEmnP24YY5Ys_epoq0AKPtM_m4dXaz0zZIRhclNYNlLvWkdAf01h7pm5efiVL1q7Sw7AaDx79r90pYk)
+![](https://lh7-us.googleusercontent.com/DT_7pRu-zYF06ZU4M9WWcir8dIt2RivS-fDRO_cIJA3spHSCxeq97vhfS57tTlIaIjEKy8QxFOgZEatgIE6NdobAJd7uqnitX-dB1bBe2Nl03nS7cedIhjIECM052TBrsjiH4LYtvbjwjaQ)
 
 ※ 実際には、青でない場合、黄、赤の可能性がありますが、ここでは、「青」か、どうかだけで判断しています
 
@@ -219,7 +219,7 @@ console.log( 3 <= 4 );
 
 年齢（数値）による分岐処理の例です。「もし年齢（数値）が18歳以上であれば、選挙権があります。そうでない場合（18歳未満）であれば、選挙権がありません」
 
-![](https://lh7-us.googleusercontent.com/NgsEuO9vHkSULp4kvH8ppLWyHS_4lg3PYXxAcbCeVl_psBUk9sfQyVV5dt6tqcKzA5Y8fCGrDygD5TZtsAlnreiaPqNBEJS1WI6HuaVlCE98s3m1Xf5ZKVTf3J_h7hvCTmfAldjTbRKmV44)
+![](https://lh7-us.googleusercontent.com/18u-avRzIXQS3tx8_AEggoeX2vgkZaVSZgy6Kcq3Dld2J40Ik676qOLkAoUY4yQvOrXL3vO6gfqzc6wCuNv4_pbgyi6IofGvJRfqcsGTz1D6DBpMsUwEs8ouu3FLk5wMiSBENP8pxkCJty0)
 
 このように「条件」によって、処理が「分かれている」ことが「分岐処理」の特徴です。日常生活の中でも、分岐処理がありますが、この考え方をプログラムの中でも取り入れます
 
@@ -243,7 +243,7 @@ if ( 条件 ) {
 
 if文は条件式が「true」だった場合、指定した処理を実行するための構文です。条件式が「false」だった場合、処理を実行しません
 
-![](https://lh7-us.googleusercontent.com/Ov_sxpQGGNtsaOpkIBu6FCJZrVmFNZTb5ho0ouxFEPV4nJkmZoC5MjUzUAy0xcOefADu1M7asZoLpO1S9276Ga8SsvKwAqPSHnAFqfse158Cm1R6oNU2EBevd12KI99ft-y4WMpRlzPtowY)
+![](https://lh7-us.googleusercontent.com/Es1iElucoun4TIpiAkm-Hnt8x_5kM3_36jnHlCSBS7AXcd5XGzA4DLHQFhOco7YE48lZiU3Mz5CbOW7ltnrHsdKTCm7QbvSlT7tEdwPKSU6Bh6Rxq3WRSqy7j9ZOh1DzDeH8gM1a0gmMEkw)
 
 * * *
 

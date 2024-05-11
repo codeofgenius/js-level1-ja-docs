@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ3_パドル作成 / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ3_パドル作成 / JavaScriptレベル1
 ---
@@ -73,7 +73,7 @@ mainScene.createPaddle = function() {
 
 作成したプログラムを実行します。ゲームを再読み込みします。ボールの下側に「パドル」が表示されると正しくできています
 
-![](https://lh7-us.googleusercontent.com/HaYo6GwQePiYbyHWwQXu9LIevEy1_iYBhFFW-sGb_dy_dVUCzz4kgW-ZXa7Uv22K7kTldP4YVxs1sSUiCwyCc8SOgrXz5eu-ApPH_DWqfxSPrnGaI28QfHwKsmepcnyg3YblioUxF711JHE)
+![](https://lh7-us.googleusercontent.com/tuQsU3rtzgp3xMpvEYrShWox6jWfNNO_vTlnQ3Qd2MKLe539PcolXrEmA63LKpW2_Ms2gvjHJBFNwVk0eooxsNKokZggkp_Ua80WWI1aSh-9HqYemJRziPU_ZPXcq8gq55S-BPxweug-Eno)
 
 * * *
 
@@ -169,7 +169,7 @@ mainScene.update = function() {
 
 作成したプログラムを実行します。ゲームを再読み込みします。「右カーソルキー」をクリックするとパドルは右方向に移動します。「左カーソルキー」をクリックすると、パドルは左方向に移動します
 
-![](https://lh7-us.googleusercontent.com/DNXteila2ULEVpismCiBoVWneCKQ9Ya0ZJPgym97cSSsjRF81z1RIy48sCNRd2jPYSAiKxP4_PXShs7WV4BbftgLYe6MZrPk6Yz0GDRy80SjRIxSrn_GypB2ll0d1KuH_OxgB7fhIRybLY8)
+![](https://lh7-us.googleusercontent.com/yZMkwjhRHgBBeRFI_MQzzm4Ob-y8AXAZgs2kC5aYtsiT6stEMB_p-8vTSbmxuwRSWJOKcHMSzmtfVGmOYdHBMhYOvvpDnlT7YpT4pDDMmHEj69YQMguAdLLd85tnJjAYZPa7mauhUgLx2K0)
 
 * * *
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 04章_変数を利用しよう / ステップ2 / JavaScriptレベル1
 description: 04章_変数を利用しよう / ステップ2 / JavaScriptレベル1
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ5_ブロック作成 / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ5_ブロック作成 / JavaScriptレベル1
 ---
@@ -109,7 +109,7 @@ mainScene.createBlocks = function() {
 
 ブロックを表示します。ボールがブロックに衝突すると、ブロックが消えます。また、ブロックを全て消すとゲームクリアになります。ゲームクリアになると、スタート画面が表示されます
 
-![](https://lh7-us.googleusercontent.com/u1YYkHEwzcY4JhA8yJdHLJWQo1m8YthHhEZVqOOu1oti2CSIg6eZwOTB_HljY7kZk2wVKlyjJPVQWVq-uSqba1-8k942eQSCtgyZ3YhApkuCKEE0SmuiIjqDYEklJWISNsjPE5uZFDi3_34)
+![](https://lh7-us.googleusercontent.com/ZwhGmVFeWB08PpgMQgRP0efVBVSRmu5XsbjUgHTeUReTW43sazyY52xdkj5P-SBnfEndMO-xUok94M3cyKAhafXMJyBTl8zprchsJTpVLB2rHhUqcFrK-sV8eT-hPQLGxBHuQ9Oc1aUky1I)
 
 ※ブロックを全て消して、「ゲームクリア」ができるかどうかを確認してください
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 04章_変数を利用しよう / ステップ1 / JavaScriptレベル1
 description: 04章_変数を利用しよう / ステップ1 / JavaScriptレベル1
 ---
@@ -31,7 +31,7 @@ description: 04章_変数を利用しよう / ステップ1 / JavaScriptレベ�
 
 変数という「箱」の中に「データ」を格納します。それぞれの変数には区別するための「名前」を付けます。変数の名前のことを「変数名」（へんすうめい）といいます
 
-![](https://lh7-us.googleusercontent.com/exeho46YVbezUWmE_6F4GuO9dvT2CV1cXfinSqtjTJUcx7O0PWtxqHtek6mzxJoCKE7RZRk1j7LmWsmCMaEpujgmN17vg4Vf1JS69NMz-iDtfuMN1bfmCtNrVCIv8wGvn3AjMDDyrXsP7hk)
+![](https://lh7-us.googleusercontent.com/DkyFNmYuM8uRBEanrRTXi-BF2_eaVsWrHtjaGKNaKykVIV4QoKTIig2XFjOrbozgiwGW9LZtOpxU6g7Br5uFiF--ffEME107GDxPmvVRKLYijVBl1TbHNZ3gresYWS83GjKFzLDovgfv5Ng)
 
 変数を使うためには、変数の名前を付けます。そのうえで、変数（箱）に「データ」を格納します
 
@@ -47,7 +47,7 @@ description: 04章_変数を利用しよう / ステップ1 / JavaScriptレベ�
 
 変数を利用するにあたり、あらかじめ、「変数を宣言」する必要があります。「変数を宣言」するとは、JavaScriptに対して、「〇〇という名前の変数を利用するので、データを格納するための箱を用意してください」という命令を行うことです
 
-![](https://lh7-us.googleusercontent.com/sjGfq_crRoTz57JpGv9LRABFo4bYwGsywhy9VOh4K2kApNJsNnI87JaClkQkPOy4ega0GpFC2eybjj6BF86P_fkyocnTL6GYIh2TPYFjrQGSTWBGbmZZLMvnbDpBOpNpb76ZtFtgMs1mWQo)
+![](https://lh7-us.googleusercontent.com/qK4HXeJlHbmysXLybvc8jbk5TMjXxFjk92FMrYN4vLgdHgEcRUElX9Uqqi4yZtLfdFhcMhM0XGF_kcYYFwtI44s-2ZWv-SHsxW2Nqm9wRZ6EcT5fpQ2Wvtt6yYlt_3SB1WenIUYbEpYh4cE)
 
 * * *
 
@@ -93,7 +93,7 @@ var a, b;
 
 変数を宣言した後は、変数に「データ」を代入することができます。「代入」とは変数の宣言で用意した「箱」に特定のデータを収めるイメージになります
 
-![](https://lh7-us.googleusercontent.com/hn-MPZr6YGcYJxSBX_oenP-IqhqNbGvEVpKbeaLISirjnghGslqcoPG6T8hmMrxggOjGBR_q-ycuEiNO_uks5JL3X5poff-qpqk2YwZWm1q7IIFnb1OqbQtrnrpAsDnIVFs2CNedCy-NFg4)
+![](https://lh7-us.googleusercontent.com/e4OR2PxfLZXubq21cgwCPx_iEIZjETZXFy5PCwokshvqn1XYEm7ZD4UHCoSMFNm2qBZlBVoTHg82I8OTc1qXjbkmvD8RxeMhAsD1AiCwnNj2JHZIvv5WZzuHMNJG3UvUcPZscbRSX-dkJh8)
 
 * * *
 

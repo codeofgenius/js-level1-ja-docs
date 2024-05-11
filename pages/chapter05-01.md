@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 05章_演算子を利用しよう / 演算子を利用しよう / JavaScriptレベル1
 description: 05章_演算子を利用しよう / 演算子を利用しよう / JavaScriptレベル1
 ---
@@ -80,7 +80,7 @@ JavaScriptには様々な形式の「式」が存在しますが、「式」を�
 *   演算子は計算処理を行うための記号
 *   オペランドはデータ、値、変数などの計算処理の対象
 
-![](https://lh7-us.googleusercontent.com/7LQhSB0zhzsaMinWzKJxk1KliPDY74msvoIQtlTO4jF8xErpHdX4KUfdNXLkCmLBzlvwR9nsLtVRp68q7sMblxeqdA3Cys2z-uJDxHMZQ83vkKXtPQsJpsfBYw2faUu5XC7LztSeWQ6yBLc)
+![](https://lh7-us.googleusercontent.com/_L6rr6YapvFJ3v-AlLHakKDa5A7Q6sSgUXYtcQrge-SvjRhDA5W33foZPWmm3TOLVJvymrnSpr_e1pPKp6QztBHI9NbCW4iv8D7eFcy0Rw10I3sMmY8x618BeeqLR3OhdhBu9iel04ejwSI)
 
 これまで登場してきた「=」「+」「-」などの記号も「演算子」です。記号の前後に与えられたデータに対して「演算子」が計算処理を行い、「計算結果」を返します
 
@@ -92,7 +92,7 @@ var x = 3 + 2;
 
 これらも、以下のような「演算子」と「オペランド」（データ）から成り立っています
 
-![](https://lh7-us.googleusercontent.com/lHFZKgndrE66pMtnioDZsNFgVBOwqEFbi5PO-cWJJFtLe_b06okOW4hhjV2oIrVvrjg7aa1w4U7pEJX7P3GByo701Y4cEE4rkuYSAp8OmN1-CVmfdOvn4ynVmnOreeE7E0B4lwFpjEUSlsA)
+![](https://lh7-us.googleusercontent.com/w3DFeV9fYkok2X5-SaeP-hIml22ADH5oXjBaJDX-_02moQsz4AuuUoq-No3f5zCAWVprreBXeBplfsDdxEKHG3sN7Vh6hNMYreka-GPjcFTi6zYUAZahKwCBzIEHhoeI1wWrrwC-1aXq-ck)
 
 #### 様々な演算子
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 01章_ワークスペースの操作説明 / ワークスペースの操作説明 / JavaScriptレベル1
 description: 01章_ワークスペースの操作説明 / ワークスペースの操作説明 / JavaScriptレベル1
 ---
@@ -15,7 +15,7 @@ description: 01章_ワークスペースの操作説明 / ワークスペース�
 
 しかし、プログラミング言語を勉強していくためには、「開発環境」が備わっていた方が簡単に学習を進めることができます。そのため、この学習では「クラウド9」という「開発環境」を利用してJavaScriptのプログラムを作成します
 
-![](https://lh7-us.googleusercontent.com/yomVk2dVIFHIFp-gOWlN6maYGjyk5J5FYep-oiiXrQJwO58l6Fnc9QKkt-ESkIPOpTLxxxsqN89adOUoOquHRkyuGia7AjXHy5Pt3QIC0OpdpYj84Y8QkJFxbVtWU26VoMJ5lVLsONi1SaE)
+![](https://lh7-us.googleusercontent.com/0TMIa4NIpK4IJZ1J4cFZpFpgeo6NOvs8_Ev4x38i8OL8WJxB8puCqiv0o-_vqI8SxENX-nVISUCm4IEx27yBJYEGI3vpSvb81vgkn2uNAd4dvarKs4h6KENjSoEHFguYLuZRzaM0O7c3aYY)
 
 * * *
 

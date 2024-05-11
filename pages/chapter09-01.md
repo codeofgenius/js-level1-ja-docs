@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ1_紹介 / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ1_紹介 / JavaScriptレベル1
 ---
@@ -43,7 +43,7 @@ JavaScriptレベル1の最後に「ブロック崩し」ゲームを作成しま
 
 画面右側にゲームの実行画面が表示されます。ただし、現時点でゲームは完成していないため、動作させることはできません
 
-![](https://lh7-us.googleusercontent.com/rZMGlXdYP9_HWicYyRr8b-rBJtrsJiwXKIGAgsnVrwYjifmmcmPXZZi8XyagyJTQwadZbEFV-O2XmU-hjRxc23V4K4NRyWg4EaBqe0zrrGNhcm-d5t7ToIpGLD9jmAG32b9yIp3teWDC7oA)
+![](https://lh7-us.googleusercontent.com/gSzbb4vXZM--FG3KOPYBwwS4f9r-oJHjxddYqrAk-AJ5jvgI9aQSx00AW3wblWZYJP2jrxlT1a7xwX-fBWsvhHazivs96CNd8gpqxc0BiXft5Sstik-JM7ftU2T3wwO5e0-bW7ia57y3HSQ)
 
 * * *
 
@@ -55,13 +55,13 @@ JavaScriptレベル1の最後に「ブロック崩し」ゲームを作成しま
 
 ゲームが別のタブで表示されます。これはスタート画面です。何かのキーをクリックすると、ゲームの実行画面が表示されます
 
-![](https://lh7-us.googleusercontent.com/f8vxKvuHUeSMA3iUNbCyQhUxqofbgMqsVdr5HscufWhIpJhRSOlNw--4fZv2VQayeD-Mao-AURZL9MQz5_MGc24EWD7_oIjwrNRYXNMjry16sjRKBx4zxdri4dlRt1h-oH6RfwBFs86ggeM)
+![](https://lh7-us.googleusercontent.com/266NpjHWXQWY01k58HKukz2l5J4hm7jQv1HPrYPObaW5Ct2jqTtU59D9QeJPl7cjVYEB6m6Y_lNIperNoVbdZJTleX6tdVB84tq__lOaHYxIUtQlJFaciVVf-Xo8xQHNgVDS6e3x50e9uBk)
 
 * * *
 
 スタート画面から、ゲームの実行画面に変わりました。
 
-![](https://lh7-us.googleusercontent.com/j0zP6r3-r4vkzLu1DxhNJbM2CM68WZe4ZAyEd_tyIfzZiSp-jOiXbPmtttMnK_UCAcAIe8Q7KpMiZ-LuBrXu40emYzHe1oRmZNeTVLAjgXF_ptLfsmCiJPnnpjLgmgBD6GiPOdN-B0KjI4k)
+![](https://lh7-us.googleusercontent.com/rrsIbQEvqETAp81bpY9bV6dcyQoMFengjGZPrBt_YsW6K4wX1WUauvJQU-W-KQKg4H0hUcv-KfNH0Q6bkJTlM4BW3BAXRWHghUK8MBwkbS21Kn0y9sz3wa-N_XLBvTsnFtGrnhjEMyI8fQA)
 
 ただし、現時点で、このゲームを操作することはできません。最終的には、「ブロック崩し」ゲームを実行しますが、現時点では、真っ黒な画面です
 

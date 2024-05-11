@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 06章_if文の仕組み / ステップ3 / JavaScriptレベル1
 description: 06章_if文の仕組み / ステップ3 / JavaScriptレベル1
 ---

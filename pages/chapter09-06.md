@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 09章_ゲーム作成 / ステップ6_ゲームオーバー / JavaScriptレベル1
 description: 09章_ゲーム作成 / ステップ6_ゲームオーバー / JavaScriptレベル1
 ---
@@ -123,7 +123,7 @@ mainScene.update = function() {
 
 画面右上でにライフが表示されます。初期値は「3」です。ボールが画面下部に到達すると、ライフが減ります。再度ボールを発射する状態になります。ライフが「0」になると、スタート画面が表示されます
 
-![](https://lh7-us.googleusercontent.com/LD00wr8DcPj9KtZl5tOo50uQmd28-Y9saW2dFCwbL0KAHjmtd6rPG3kvgbPYh1MdzN3PTlC6HbnLYq6T3D2cvybzvk6VFpw9kHWDH_oMpiJC8td1HGDBxdRwB6250hzOaaNMJOfmVhCntto)
+![](https://lh7-us.googleusercontent.com/i-U4Ya1onQv6kiyQxDli_nzOx8g7EOiCXuJy9ebwR6lZxSQ-uvyyQo4tB8pPdcQYiuKQJNTO2rMFcqGzI9zW4McTiEuhDVHoCN1A_GXI8TbonoQ1n_pm_f3Yixw1S3U4H7EPGmxfz_dOZkc)
 
 * * *
 

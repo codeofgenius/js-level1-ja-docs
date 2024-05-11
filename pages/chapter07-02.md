@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 07章_繰り返し処理を行ってみよう / ステップ2 / JavaScriptレベル1
 description: 07章_繰り返し処理を行ってみよう / ステップ2 / JavaScriptレベル1
 ---
@@ -503,7 +503,7 @@ for文の途中で処理をスキップしたり、強制的に終了するた�
 
 「break」は繰り返し処理を強制的に終了させるための仕組みです。for文の中で利用した場合、「繰り返し処理を強制的に終了」します
 
-![](https://lh7-us.googleusercontent.com/ngepKnfDYFz0pqMTguF9G2Kq3wqpgXdyKnQbqKUMab-Za5CtBVg_-CkAlhkWiV8ei78RuXgOU4nHYw_Pn0tEc3jnZHGTpsAZn0ukNy_xKtk_tZOMsr8YFugT3viB50M922XZFI-txj-ndfk)
+![](https://lh7-us.googleusercontent.com/2SErS6xFhx_zI53GfEl74ejaPDG3SDH6x6kyqW2Pc9sIrhwyxrt9k9r4DxzrCo7xiGndmJnc6eUNbJmn7CwScQv0jAVF8ysgnNg5jJYkQ5KPPyuCPp4ooNN72C-QlyGBTiVAPrpGZsochcQ)
 
 * * *
 
@@ -679,7 +679,7 @@ breakを利用するとfor文などの繰り返し処理を終了させ、for文
 
 「continue」は、現在の繰り返しをスキップして、繰り返し処理の先頭に戻ります
 
-![](https://lh7-us.googleusercontent.com/RgRBUrGC3_MXIYkt1VKtkpMOIfJECDBpwxR0Axoby_j73wb_Qm7Ep99Mfc0UQuY3zIuXoVYFlly4Wnv5wfnEcWkSyvmBfibNQk8ZSm-cfixZdpOrbImvufFDmjzgTNfvpnA3r_Y3ojWf8rE)
+![](https://lh7-us.googleusercontent.com/HMid-AC5xtcmFWki6XlP2ALSF6o_Yc_oCqpmgdL_votQMxaltOVbJcLpACr_T98mQzVG08QpbnKaTNCSBFfSySFzNgLntvwek4zneRieeBhZ54qkPMGp5d6w5JoZnYx9M7Lz2MjdSsDWN2M)
 
 * * *
 

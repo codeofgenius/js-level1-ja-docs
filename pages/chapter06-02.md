@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 06章_if文の仕組み / ステップ2 / JavaScriptレベル1
 description: 06章_if文の仕組み / ステップ2 / JavaScriptレベル1
 ---
@@ -29,7 +29,7 @@ if (条件式) {
 
 if-else文は条件式が「true」だった場合、「処理A」が実行されます。「false」だった場合「処理B」が実行されます
 
-![](https://lh7-us.googleusercontent.com/iVf-C9t5JxU52NlqsJFoyZZ2cIVP7d7rBIeKHIWZ_Gp5UTJP-9NJBdJVsYGicT4fHcF0oScLOZDK86rgmw_O3vgwxL4TVWWdIQmaAkQFnm7vSDxZbKdwSp5zUw-haMC9qgUJWs2BRSrevTc)
+![](https://lh7-us.googleusercontent.com/G7XU1wkAAmiSRLLIeUl0ZNxMS_S41E1ZVQSlR77yNaTHfdUEAFgbutK7Unj64mWNCURoFeUZci5wRQ9Wx1gn-_SXtvNJM1ZyoDhSXa_KQlZXdU9pFIpVH--54gj38QRFhqP0tbUkYAlXq8k)
 
 * * *
 
@@ -169,7 +169,7 @@ if ( 条件式1 ) {
 
 「条件式2」が成り立たなかった場合、「処理C」が実行されます
 
-![](https://lh7-us.googleusercontent.com/5fITOiU0kYNVug56eMY9gAzJt18KdAounI5VaQS2RawMAKCYFujfPfsAeUXsKt48xVj41ZhmBd8aQOtI6YuEEft3Vi6AmWoOGe3DsONPZtvckb-yocVfD6IN_KugsXAeLjG1PJNTbwUorZs)
+![](https://lh7-us.googleusercontent.com/aneICS7H7hpX4-UfRGQAI64eZlNYMKvejq8aUAmmv5LIhGGQjk_DyfrL1p_2fsxjVXrbjVyAyDx2yzfZyfUFbff4G4FgTI_ifAaUzf1rv2fnyVoE35dQ_v7iflzbbt-5jrqsIx9YrsCHNOM)
 
 * * *
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 07章_繰り返し処理を行ってみよう / ステップ1 / JavaScriptレベル1
 description: 07章_繰り返し処理を行ってみよう / ステップ1 / JavaScriptレベル1
 ---
@@ -29,7 +29,7 @@ console.log('歩く');
 
 「繰り返し処理」とは、一定の期間、処理を繰り返すことです
 
-![](https://lh7-us.googleusercontent.com/1VtJ6Gw-Cwc4-a2RQlNG5aRA7FJR4k-UM8Ij2QIhjWRF2jNV7QhMFZVVreDizdRqvM2UsgKRZs5oDUsULircG-eMz0t3vRDo8RxX6HRuSRsQ1LTlgS2fQStLxAdiSM1iVK5JLMMoh22RzeM)
+![](https://lh7-us.googleusercontent.com/QDT1Eq4hypd03ZjcVp5j8U1L_67KB_VGLlrkEqqCwo0LPXarVQ7lgLifkiDe0AA5J7JIvenR4oLEWUaTaZN6_7HfI-M2Oz6uaSXREjtYLbJ4FtS9YPpcA71uG7s4sM7XcO0803p953b08QQ)
 
 * * *
 
@@ -87,7 +87,7 @@ for(初期化; 繰り返し処理の継続条件式; 増減式) {
 
 流れ図で見てみると以下のようになります
 
-![](https://lh7-us.googleusercontent.com/vUiY3bY4CyxFX5bVngfaYacw3HsbgdPJ0G_JalaeaLNHalgTlr7rZIz_X3DY0kz8hr5-xERzbJcH38Jz8-BXSmzxt0KK9lNr76o9NH_DPtjhsSNiQtR0p7YusQTdtBZChcIZLBrlka9TeZQ)
+![](https://lh7-us.googleusercontent.com/eH9EtJlcFSR4uSbbR9b_16x_Ug8JUIv4R9Dh28YhGpcagFYz4_WWZe48sLri4k83uDhL2GR_77DJlZXbnttguR_LfXb-WfamcuTUFDmfPwqYJfnG7FHSffzZMae1iiVm9wDiIhvGm9a6gjU)
 
 * * *
 
