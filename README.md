@@ -13,3 +13,7 @@
 * JavaScriptの習得ではなく、基礎的なプログラムを作成することを目指します
 * 基本的な文法のみの学習です
 
+## 各種
+* https://bootswatch.com/simplex/
+* https://getbootstrap.com/docs/5.3/components/offcanvas/#placement
+

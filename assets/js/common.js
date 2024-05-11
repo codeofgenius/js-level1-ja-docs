@@ -132,3 +132,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const images = document.querySelectorAll(".main-content img");
+  if (images && images.length) {
+    images.forEach((image, i) => {
+      image.classList.add("img-fluid");
+    });
+  }
+});
