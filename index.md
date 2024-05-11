@@ -15,8 +15,8 @@ description: トップ / JavaScriptレベル1　基礎文法1
       <div class="d-flex gap-2 w-100 justify-content-between">
         <div>
           {% assign titles = page.title | split: "/" %}
-          <h6 class="mb-0">{{ title[0] }}</h6>
-          <p class="mb-0 opacity-75">{{ title[1] }}</p>
+          <h6 class="mb-0">{{ titles[0] }}</h6>
+          <p class="mb-0 opacity-75">{{ titles[1] }}</p>
         </div>
         <small class="opacity-50 text-nowrap">{{ page.id }}</small>
       </div>
