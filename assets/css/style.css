@@ -79,3 +79,26 @@ code {
   background-color: var(--bs-body-bg);
 }
 
+
+li {
+    list-style: none;
+}
+
+.contents1 {
+    margin-left: 0px;
+}
+.contents2 {
+    margin-left: 15px;
+}
+.contents3 {
+    margin-left: 30px;
+}
+.contents4 {
+    margin-left: 45px;
+}
+.contents5 {
+    margin-left: 60px;
+}
+.contents6 {
+    margin-left: 75px;
+}
