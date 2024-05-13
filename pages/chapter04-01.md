@@ -170,7 +170,7 @@ number = 5;
 console.log(number);
 ```
 
-###### 実行結果
+##### 実行結果
 
 ```javascript:
 5
@@ -185,7 +185,7 @@ number = 5;
 console.log("number");
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:
 number
 ```
