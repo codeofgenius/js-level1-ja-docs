@@ -5,7 +5,7 @@ description: 04章_変数を利用しよう / ステップ2 / JavaScriptレベ�
 ---
 
 
-4章 変数を利用しよう ステップ2
+## 4章 変数を利用しよう ステップ2
 
 ### データの型
 
@@ -21,18 +21,18 @@ JavaScriptでは変数には、同一の変数に対して、「異なる型」�
 
 同じ変数に異なる型のデータを代入してもエラーにはなりません
 
+```javascript:
 var data = 'Hello'; // 文字列を代入
-
 data = 22; // 同じ変数に数値を代入してもエラーにはならない
+```
 
 変数に代入するデータの「型」に注意しましょう
-
-* * *
 
 ### データ型一覧
 
 JavaScriptで扱う「データ型」には以下のような種類があります
 
+<<<<<
 データ型
 
 説明
@@ -91,7 +91,7 @@ function a() {}
 
 {}
 
-* * *
+>>>>>>
 
 ### 代表的な型
 
@@ -102,56 +102,42 @@ JavaScriptでは上記のような型があります。いくつかの代表的�
 数値データを扱うための「型」です。整数、小数点の数値、負の数値などの数値を取り扱うことができます
 
 ##### プログラム例
-
+```javascript:
 var num1 = 12;
-
 var num2 = 3.14;
-
 var num3 = -5;
-
 console.log(num1);
-
 console.log(num2);
-
 console.log(num3);
+```
 
-###### 実行結果
-
+##### 実行結果
+```javascript:
 12
-
 3.14
-
-\-5
-
-* * *
+-5
+```
 
 #### 文字列
 
 文字情報を取り扱うための「型」です。文字列は、シングルクオーテーション、または、ダブルクオーテーションで囲まれた文字列となります。シングルクオーテーション、ダブルクオーテーションのどちらで囲んでも同じ意味です。文字列では英語だけでなく、日本語も扱うことができます
 
 ##### プログラム例
-
+```javascript:
 var name1 = 'Yamada';
-
 var name2 = "Sato";
-
 var name3 = '山本';
-
 console.log(name1);
-
 console.log(name2);
-
 console.log(name3);
+```
 
-###### 実行結果
-
+##### 実行結果
+```javascript:
 Yamada
-
 Sato
-
 山本
-
-* * *
+```
 
 #### 真偽値
 
@@ -160,20 +146,18 @@ Sato
 JavaScriptでは大文字と小文字を区別します。そのため「true」「false」が正しいです。「True」「TRUE」などではありません
 
 ##### プログラム例
-
+```javascript:
 var data1 = true;
-
 var data2 = false;
-
 console.log(data1); // true
-
 console.log(data2); // false
+```
 
 ###### 実行結果
-
+```javascript:
 true
-
 false
+```
 
 #### その他
 
@@ -181,34 +165,35 @@ false
 
 それでは、復習もかねて、4章までに学んだ内容の練習問題です
 
-* * *
-
 ### ワーク8 練習問題
 
 実行結果のように表示する処理を作成しましょう
 
-/js-level1/chapter04/work08.js
+```javascript:/js-level1/chapter04/work08.js
 
-###### 実行結果
 
+
+```
+
+##### 実行結果
+```javascript:
 今日の天気は「晴れ」です
-
 明日はどうだろう？
-
-* * *
+```
 
 ### ワーク9 練習問題
 
 「work09.js」には以下のようなプログラムがあります。この変数を利用して、以下のような計算を行うプログラムを作成しましょう
 
-/js-level1/chapter04/work09.js
-
+```javascript:/js-level1/chapter04/work09.js
 var number1 = 6;
-
 var number2 = 4;
-
 var number3 = 2;
 
+
+
+```
+<<<<<
 計算式
 
 実行結果
@@ -221,25 +206,25 @@ number1 x ( number2 - number3)
 
 12
 
-###### 実行結果
-
+##### 実行結果
+```javascript:
 24
-
 12
-
-* * *
+```
 
 ### ワーク10 練習問題
 
 「work10.js」には以下のようなプログラムがあります。この変数を利用して、以下のような計算を行うプログラムを作成しましょう
 
-/js-level1/chapter04/work10.js
-
+```javascript:/js-level1/chapter04/work10.js
 var num1 = 10;
-
 var num2 = 2;
-
 var num3 = num1 / num2;
+
+
+
+```
+<<<<<
 
 計算式
 
@@ -248,12 +233,12 @@ var num3 = num1 / num2;
  ( num1 x num3 ) / ( num1 x num2 )
 
 2.5
+>>>>>
 
-###### 実行結果
-
+##### 実行結果
+```javascript:
 2.5
-
-* * *
+```
 
 ### 変数の付け方
 
@@ -264,22 +249,18 @@ var num3 = num1 / num2;
 英字の大文字と小文字では異なる変数として解釈されます。そのため、変数を宣言するときには大文字なのか、小文字なのかに注意しましょう
 
 ##### プログラム例
-
+```javascript:
 var name = 'Yamada'; // 「n」が小文字
-
 var Name = 'Sato';   // 「N」が大文字
-
 console.log(name);
-
 console.log(Name);
+```
 
-###### 実行結果
-
+##### 実行結果
+```javascript:
 Yamada
-
 Sato
-
-* * *
+```
 
 #### 変数名前の決め方
 
@@ -289,25 +270,20 @@ Sato
 *   一定のルールに沿って名前を決める
 *   英単語にする
 
-良い例
-
+##### 良い例
+```javascript:
 var name = 'Yamada';
-
 var age = 20;
-
 var myName = 'Sato';
+```
 
-わかりにくい例
-
+##### わかりにくい例
+```javascript:
 // これらはエラーではないがわかりにくい変数名
-
 var x = 'Yamada';     // xでは何のデータがわかりにくい
-
 var nennrei = 20;     // エラーではないが、ローマ字よりも英単語にする
-
 var mYnAmE = 'Sato';  // わかりにくい
-
-* * *
+```
 
 ### なぜ変数を利用するのか
 
@@ -326,67 +302,50 @@ var mYnAmE = 'Sato';  // わかりにくい
 プログラムを動作させるためには初期設定といわれる「設定値」が用いることがあります。「設定値」のデータとして変数を利用します
 
 以下のようなプログラムがあったとします
-
+```javascript:
 console.log( 5 + 2 );
-
 console.log( 5 - 2 );
-
-console.log( 5 \* 2 );
-
+console.log( 5 * 2 );
 console.log( 5 / 2 );
+```
 
 このプログラムでは「5」と「2」を利用して四則演算をしています。ここでプログラムに変更をすることになりました。「6」と「3」を利用した四則演算をすることになりました。その場合、それぞれの数値をすべて修正する必要があります
 
 修正後（赤字部分を修正しました）
-
+```javascript:
 console.log( 6 + 3 );
-
 console.log( 6 - 3 );
-
 console.log( 6 \* 3 );
-
 console.log( 6 / 3 );
+```
 
 このようなプログラムでは修正する箇所が多くなります
 
-* * *
-
 そこで変数を利用したプログラムにします
-
+```javascript:
 var num1 = 5;
-
 var num2 = 2;
-
 console.log( num1 + num2 );
-
 console.log( num1 - num2 );
-
-console.log( num1 \* num2 );
-
+console.log( num1 * num2 );
 console.log( num1 / num2 );
+```
 
 このプログラムで「6」と「3」に修正する場合、変数の宣言箇所を修正するだけになります
 
 修正後（赤字部分を修正しました）
-
+```javascript:
 var num1 = 6;
-
 var num2 = 3;
-
 console.log( num1 + num2 );
-
 console.log( num1 - num2 );
-
-console.log( num1 \* num2 );
-
+console.log( num1 * num2 );
 console.log( num1 / num2 );
+```
 
 計算の値を変更したいときには変数宣言の部分だけを修正すると、計算を変更することができます。このような仕組みにしておくことでプログラムを簡単に修正することができます
 
 変数を利用することで、プログラムを簡単に修正することができます
 
-ー  －
-
-All Rights Reserved By Code of Genius
 
 
