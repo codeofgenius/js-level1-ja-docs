@@ -156,11 +156,14 @@ h4 {
   margin-bottom: 1em;
 }
 h5 {
-  color: var(--bs-danger);
+  display: inline-block;
+  color: #fff;
   text-align: start;
-  font-size: 1em;
-  padding: 10px 0 10px 0;
-  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 0.8em;
+  background: linear-gradient(transparent 0%, var(--bs-danger) 0%);
+  border-radius: 5px;
 }
 h6 {
   background-color: var(--bs-primary);

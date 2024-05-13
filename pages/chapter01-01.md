@@ -76,9 +76,9 @@ console.log("Hello JavaScript");
 
 今回実行したプログラムについて解説します。今回は1行だけのプログラムを実行しました
 
-/js-level1/chapter01/work01.js
-
+```javascript:/js-level1/chapter01/work01.js
 console.log("Hello JavaScript");
+```
 
 * * *
 
@@ -190,7 +190,7 @@ HTMLとJavaScriptを利用してウェブブラウザの画面で動作するプ
 
 1章のまとめです。クラウド9を利用して、JavaScriptファイルとHTMLファイルを実行しました。それぞれのファイルによって動作方法が異なりますので注意しましょう
 
-#### ファイルの
+#### ファイルの実行方法
 
 | ファイル名の最後の部分 | 実行方法 |
 | ---- | ---- | ---- |

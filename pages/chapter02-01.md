@@ -66,7 +66,7 @@ console.log("Hello");
 console.log("How are you?");
 ```
 
-###### 実行結果
+##### 実行結果
 ```
 Hello
 How are you?
@@ -105,7 +105,7 @@ console.log("こんにちは");
 console.log("元気ですか");
 ```
 
-###### 実行結果
+##### 実行結果
 ```
 こんにちは
 元気ですか
@@ -141,7 +141,7 @@ console.logで日本語を表示することができます
 
 ```
 
-#### 実行結果
+##### 実行結果
 ```
 はじめまして
 私の名前は〇〇です
@@ -161,7 +161,7 @@ console.logで日本語を表示することができます
 
 ```
 
-#### 実行結果
+##### 実行結果
 ```
 私の年齢は〇〇才です
 好きな科目は▲▲です
@@ -181,13 +181,14 @@ JavaScriptを作成する上でのいくつかの基本的な決まりがあり�
 
 ##### OKパターン
 
+```javascript:
 console.log('hello');
-
 console.log( 3 + 2);
+```
 
 ##### NGパターン
 
-```
+```javascript:
 // 全角英字なのでエラー
 ｃｏｎｓｏｌｅ．ｌｏｇ（’ｈｅｌｌｏ’）；
 ｃｏｎｓｏｌｅ．ｌｏｇ（ ３ ＋ ２ ）；
@@ -200,13 +201,15 @@ console.log( 3 + 2);
 JavaScriptでは英字（アルファベット）の大文字と小文字は区別して扱われます。アルファベットを入力する場合、「大文字」と「小文字」を区別して、正しく入力することを心がけましょう
 
 ##### OKパターン
-```
+
+```javascript:
 console.log('hello');
 console.log( 3 + 2);
 ```
 
 ##### NGパターン
-```
+
+```javascript:
 Console.log('hello'); // NG
 CONSOLE.log('hello'); // NG
 console.Log('hello'); // NG
@@ -218,7 +221,7 @@ console.Log('hello'); // NG
 
 ##### 文字列
 
-```javascript
+```javascript:
 // helloの部分が文字列
 console.log('hello');
 
@@ -238,13 +241,13 @@ JavaScriptは1文ずつ解釈されて実行されます。各命令文の末尾
 
 ##### セミコロンがない例
 
-```javascript
+```javascript:
 // セミコロンがないのでエラーになります
 console.log('Hello')console.log('How are you')
 ```
 
 ###### 実行結果
-```javascript
+```javascript:nofile
 Uncaught SyntaxError: Unexpected identifier
 ```
 ※ ただし、JavaScriptのバージョンによっては命令の末尾のセミコロンを記述しなくても正しく動作します。また、セミコロンを記述しない書き方が推奨される場合もあります。このカリキュラムでは命令の末尾にセミコロンを記述しますが、絶対にそうである必要はありません
@@ -259,13 +262,13 @@ Uncaught SyntaxError: Unexpected identifier
 
 JavaScriptでは「//」（スラッシュが二つ）という記号から、その行の終わりまでを「コメント」として解釈するという決まりになっています。そのため、「//」にはプログラムとは関係のないプログラマのための「メモ」を入力することができます。「コメント」はJavaScriptの文法に縛られることなく、自由に文章を書くことができます
 
-```javascript
+```javascript:
 // Helloと表示する この部分はコメントなので自由に記述できる
 console.log("Hello");
 ```
 
 実行結果（コメントはプログラムとして処理されない）
-```
+```javascript:
 Hello
 ```
 
