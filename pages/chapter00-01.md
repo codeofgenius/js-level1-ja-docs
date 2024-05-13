@@ -123,7 +123,7 @@ Gmailにログインしているうえで、「Googleでログイン」をクリ
 
 タブで開かれている領域に以下のような文字を入力してエンターキーをクリックします
 
-```bash:
+```bash:nofile
 git clone https://github.com/programmingkids/js-level1.git
 ```
 
@@ -151,5 +151,5 @@ git clone https://github.com/programmingkids/js-level1.git
 
 これで「0章」は終わりです。「1章」の学習に進みましょう
 
-正しく取得できなかった場合、先生に伝えてください。先生が対応します
+###### 正しく取得できなかった場合、先生に伝えてください。先生が対応します
 

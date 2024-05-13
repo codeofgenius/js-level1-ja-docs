@@ -17,3 +17,8 @@
 * https://bootswatch.com/simplex/
 * https://getbootstrap.com/docs/5.3/components/offcanvas/#placement
 
+
+| Head | Head | Head |
+| ---- | ---- | ---- |
+| Text | Text | Text |
+| Text | Text | Text |

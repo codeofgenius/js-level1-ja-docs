@@ -162,7 +162,11 @@ h5 {
   padding: 10px 0 10px 0;
   margin-bottom: 0.5em;
 }
-
 h6 {
-  
+  background-color: var(--bs-primary);
+  color: #fff;
+  text-align: start;
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 1em;
 }
