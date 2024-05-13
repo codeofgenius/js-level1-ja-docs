@@ -140,4 +140,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image.classList.add("img-fluid");
     });
   }
+  const tables = document.querySelectorAll(".main-content table");
+  if (tables && tables.length) {
+    tables.forEach((tables, i) => {
+      tables.classList.add("table table-bordered table-hover");
+    });
+  }
+  const theads = document.querySelectorAll(".main-content table thead");
+  if (theads && theads.length) {
+    theads.forEach((thead, i) => {
+      thead.classList.add("table-info");
+    });
+  }
 });
