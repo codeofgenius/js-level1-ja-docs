@@ -187,7 +187,7 @@ table
 ```javascript:/js-level1/chapter05/work01.js
 console.log(3 + 2);
 console.log(5 - 2);
-console.log(4 \* 3);
+console.log(4 * 3);
 console.log(8 / 2);
 console.log(10 % 3);
 ```
@@ -587,7 +587,6 @@ a++;
 以下の処理を作成して、実行しましょう
 
 ```javascript:/js-level1/chapter05/work05.js
-```
 var a = 10;
 a++;
 console.log( a );

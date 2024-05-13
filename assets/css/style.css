@@ -161,7 +161,7 @@ h5 {
   text-align: start;
   font-size: 0.8em;
   padding: 10px 10px 10px 10px;
-  margin-bottom: 0.8em;
+  margin-bottom: 0;
   background: linear-gradient(transparent 0%, var(--bs-danger) 0%);
   border-radius: 5px;
 }
