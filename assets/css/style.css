@@ -132,36 +132,35 @@ code {
 }
 
 h2 {
-  background-color: var(--primary);
-  color:#fff;
-  text-align:center;
-  font-size: 18px;
-  padding: 2px;
-  margin-bottom: 10px;
+  background-color: var(--bs-primary);
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 1em;
 }
 h3 {
-  background-color: var(--dark);
-  border: 1px solid #fff;
-  color:#fff;
-  text-align:start;
-  font-size: 16px;
-  padding: 2px 2px 2px 0;
-  margin-bottom: 10px;
+  background-color: var(--bs-dark);
+  color: #fff;
+  text-align: start;
+  font-size: 1.5em;
+  padding: 10px 10px 10px 5px;
+  margin-bottom: 1em;
 }
 h4 {
-  border-bottom: 2px solid var(--info);
-  color:var(--info);
-  text-align:start;
-  font-size: 14px;
-  padding: 2px 2px 2px 0;
-  margin-bottom: 10px;
+  border-bottom: 2px solid var(--bs-info);
+  color: var(--bs-info);
+  text-align: start;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+  margin-bottom: 1em;
 }
 h5 {
-  color:var(--danger);
-  text-align:start;
-  font-size: 14px;
-  padding: 2px 2px 2px 0;
-  margin-bottom: 10px;
+  color: var(--bs-danger);
+  text-align: start;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+  margin-bottom: 0.5em;
 }
 
 h6 {
