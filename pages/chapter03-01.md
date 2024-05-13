@@ -305,6 +305,7 @@ btn.onclick = function() {
     // ボタンがクリックされたときの処理をここに記述します
 
 }
+```
 
 ボタンがクリックされたときの処理手順は以下のようになります
 
@@ -321,7 +322,7 @@ btn.onclick = function() {
 
 ##### JavaScript部分
 ```javascript:
-    var number1 = document.getElementById("number1").value;
+    var number1 = document.getElementById("number1").value;
 ```
 
 #### 「number2」のタグに入力された値を取り出す
@@ -330,7 +331,7 @@ btn.onclick = function() {
 
 ##### JavaScript部分
 ```javascript:
-    var number2 = document.getElementById("number2").value;
+    var number2 = document.getElementById("number2").value;
 ```
 
 #### 「number1」の値と「number2」の値を足して、「答え」を計算する
@@ -339,7 +340,7 @@ btn.onclick = function() {
 
 ##### JavaScript部分
 ```javascript:
-    var answer = parseInt(number1) + parseInt(number2);
+    var answer = parseInt(number1) + parseInt(number2);
 ```
 
 #### 「answer」のタグに「答え」を代入する
