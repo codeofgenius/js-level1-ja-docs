@@ -201,7 +201,7 @@ number = 5;
 console.log(number);
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:
 5
 ```
@@ -221,7 +221,7 @@ message = "I feel fine";
 console.log(message);
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:
 I feel fine
 ```
@@ -242,7 +242,7 @@ var num2 = 4;
 console.log(num1 + num2); // 7と表示されます
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:
 7
 ```
@@ -263,7 +263,7 @@ var answer = num1 \* num2;
 console.log(answer); // 12と表示されます
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:
 12
 ```
@@ -287,7 +287,7 @@ console.log( num1 \* num2 ); // 10
 console.log( num1 / num2 ); // 2.5
 ```
 
-###### 実行結果
+##### 実行結果
 
 ```javascript:
 7
@@ -341,10 +341,11 @@ var num3 = 3;
 
 
 ```
+
 | 計算式 | 実行結果 |
 | ---- | ---- | ---- |
 | num1 / num2 - num3 | 2 |
-| num3 x num2 - num1 | \-4 |
+| num3 x num2 - num1 | -4 |
 
 ##### 実行結果
 ```javascript:
