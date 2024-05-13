@@ -80,11 +80,11 @@ console.log((6 - 2) \* 2);
 8
 ```
 
-#### 計算の優先順位を変更する
+### 計算の優先順位を変更する
 
 計算を行うための記号には優先順位があります。通常は数学と同じように、かけ算、わり算、たし算、ひき算となります。しかし、数学と同様に、（）で囲むと計算の優先順位が上がります
 
-##### 丸カッコ（）がない
+#### 丸カッコ（）がない
 
 「2 × 2」 が行われて「4」、その後、「2 + 4」が実行されて「6」となります
 
@@ -92,7 +92,7 @@ console.log((6 - 2) \* 2);
 console.log(2 + 2 \* 2);
 ```
 
-##### 丸カッコ（）が優先して計算される
+#### 丸カッコ（）が優先して計算される
 
 （）内が先に計算されます。（2 + 2)が行われて「4」、「4 \* 2」が実行されて「8」となります
 
@@ -102,7 +102,7 @@ console.log((2 + 2) \* 2);
 
 * * *
 
-##### 丸カッコ（）がない
+#### 丸カッコ（）がない
 
 「2 x 2」が行われて「4」、その後、「6 - 4」が実行されて「2」となります
 
@@ -110,7 +110,7 @@ console.log((2 + 2) \* 2);
 console.log(6 - 2 \* 2);
 ```
 
-##### 丸カッコ（）が優先して計算される
+#### 丸カッコ（）が優先して計算される
 
 （）が先に計算されます。(6 - 2)が行われて「4」、「4 x 2」が実行されて「8」となります
 
@@ -198,6 +198,8 @@ var btn = document.getElementById("btn");
 btn.onclick = function() {
     // ここにプログラムを作成します
 
+
+
 }
 </script>
 </body>
@@ -282,14 +284,14 @@ btn.onclick = function() {
 
 まずは、「=」ボタンを取り出す処理を行います。「=」ボタンにはHTMLで以下のように設定されています。<button>のid属性で「btn」という値が割り当てられています
 
-#### HTML部分
+##### HTML部分
 ```javascript:
 <button id="btn">=</button>
 ```
 
 そのため、「id」が「btn」のタグを取得する処理を行います。「document.getElementById」という文で、「btn」という名前のボタンを取得します。変数（へんすう）「btn」で「=」のボタンを表します。変数については、次の章で説明します。現時点では、「変数というものにデータが格納されている」という理解で構いません
 
-#### JavaScript部分
+##### JavaScript部分
 ```javascript:
 var btn = document.getElementById("btn");
 ```
@@ -297,7 +299,7 @@ var btn = document.getElementById("btn");
 
 次に、「=」ボタンがクリックされたときの動作を作成します。以下のようにすると、「btn」がクリックされたときの動作を作成することができます。｛｝の内側にボタンがクリックされた時の処理を作成します
 
-#### JavaScript部分
+##### JavaScript部分
 ```javascript:
 btn.onclick = function() {
     // ボタンがクリックされたときの処理をここに記述します
@@ -313,13 +315,13 @@ btn.onclick = function() {
 
 * * *
 
-##### 「number1」のタグに入力された値を取り出す
+#### 「number1」のタグに入力された値を取り出す
 
 「number1」に入力されている値を取り出して、変数「number1」に代入します
 
-#### JavaScript部分
+##### JavaScript部分
 ```javascript:
-   var number1 = document.getElementById("number1").value;
+    var number1 = document.getElementById("number1").value;
 ```
 
 #### 「number2」のタグに入力された値を取り出す
@@ -328,16 +330,16 @@ btn.onclick = function() {
 
 ##### JavaScript部分
 ```javascript:
-   var number2 = document.getElementById("number2").value;
+    var number2 = document.getElementById("number2").value;
 ```
 
-##### 「number1」の値と「number2」の値を足して、「答え」を計算する
+#### 「number1」の値と「number2」の値を足して、「答え」を計算する
 
 「parseInt」は文字列を数字に変換する処理です。入力ボックスから取得した値は「文字列」です。そのため、「parseInt」を利用して、「文字列」を「数字」に変換します。その上で、「number1」と「number2」を合計します。合計した結果を変数「answer」に代入します
 
 ###### JavaScript部分
 ```javascript:
-   var answer = parseInt(number1) + parseInt(number2);
+    var answer = parseInt(number1) + parseInt(number2);
 ```
 
 #### 「answer」のタグに「答え」を代入する
@@ -346,7 +348,7 @@ btn.onclick = function() {
 
 ###### JavaScript部分
 ```javascript:
-   document.getElementById("answer").value = answer;
+    document.getElementById("answer").value = answer;
 ```
 このワークでは以上のような流れで「たし算の処理」を行います
 
@@ -358,8 +360,7 @@ HTMLとJavaScriptを利用して画面で動作するプログラムを作成で
 
 最後に、「かけ算」を行うプログラムを自分で作成してみましょう。まずは完成後の実行結果を確認します
 
-#### 実行結果
-
+##### 実行結果
 画面を開いた状態
 
 ![](https://lh7-us.googleusercontent.com/inA_DpBQNIk1qkNcDWVcwo6L__5KZXQL9ou9e2O4DyI6SWnaEVfGl0PAt27JN-fJwrZN5eQ_j8MNaialyCFtgEnOTYeeCU5tCmD-3p3c6F9woTaDFyjof34MtW3D4KRGEF6SwSHGV3xkF-4)
@@ -398,6 +399,7 @@ HTMLとJavaScriptを利用して画面で動作するプログラムを作成で
 var btn = document.getElementById("btn");
 btn.onclick = function() {
     // ここにプログラムを作成します
+
 
 
 }
