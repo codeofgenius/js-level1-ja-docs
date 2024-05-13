@@ -142,8 +142,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   const tables = document.querySelectorAll(".main-content table");
   if (tables && tables.length) {
-    tables.forEach((tables, i) => {
-      tables.classList.add("table table-bordered table-hover");
+    tables.forEach((table, i) => {
+      table.classList.add("table table-bordered table-hover");
     });
   }
   const theads = document.querySelectorAll(".main-content table thead");
