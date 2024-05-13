@@ -259,7 +259,7 @@ console.log(num1 + num2); // 7と表示されます
 ```javascript:/js-level1/chapter04/work04.js
 var num1 = 2;
 var num2 = 6;
-var answer = num1 \* num2;
+var answer = num1 * num2;
 console.log(answer); // 12と表示されます
 ```
 
@@ -283,7 +283,7 @@ var num1 = 5;
 var num2 = 2;
 console.log( num1 + num2 ); // 7
 console.log( num1 - num2 ); // 3
-console.log( num1 \* num2 ); // 10
+console.log( num1 * num2 ); // 10
 console.log( num1 / num2 ); // 2.5
 ```
 
