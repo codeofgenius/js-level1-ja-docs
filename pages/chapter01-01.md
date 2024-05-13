@@ -5,7 +5,7 @@ description: 01章_ワークスペースの操作説明 / ワークスペース�
 ---
 
 
-1章 ワークスペースの操作説明
+## 1章 ワークスペースの操作説明
 
 学習を始めるにあたり、JavaScriptを実行するための操作方法を勉強しましょう。操作に慣れることでプログラムの学習がスムーズになります
 
@@ -37,9 +37,9 @@ description: 01章_ワークスペースの操作説明 / ワークスペース�
 
 「work01.js」というファイルは1行だけのファイルです。既に入力されているので、すぐに実行することができます
 
-/js-level1/chapter01/work01.js
-
+```javascript:/js-level1/chapter01/work01.js
 console.log("Hello JavaScript");
+```
 
 * * *
 
@@ -104,35 +104,22 @@ console.log("Hello JavaScript");
 
 「HTML」ファイルを実行する場合は手順が少し異なります。HTMLファイルを実行する方法を試しましょう。まずは、「work02.html」のファイルを開きましょう
 
-/js-level1/chapter01/work02.html
-
+```javascript:/js-level1/chapter01/work02.html
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <meta charset="utf-8">
-
 <title>ワーク2</title>
-
 </head>
-
 <body>
-
 <script>
-
 document.writeln("<h1>Hello JavaScript</h1>");
-
 var today = new Date()
-
 document.writeln(today.toLocaleString());
-
 </script>
-
 </body>
-
 </html>
+```
 
 「work02.html」は完成しているので、ファイルを修正する必要はありません
 
@@ -168,23 +155,30 @@ document.writeln(today.toLocaleString());
 
 HTMLファイル内で「JavaScript」を作成する場合、<script>タグに囲まれた部分にプログラムを作成します。今回のファイルは以下の部分が<script>タグに囲まれています
 
+```javascript:
 <script>
 
 ここにJavaScriptのプログラムを作成します
 
 </script>
-
+```
 まずは、以下のような処理があります。これは画面に「<h1>Hello JavaScript</h1>」を表示するための処理です。「document.writeln」という命令で、ウェブブラウザの画面に文字を表示することができます
 
+```javascript:
 document.writeln("<h1>Hello JavaScript</h1>");
+```
 
 以下の処理で、本日の日付データを保持する「オブジェクト」を作成しました。「オブジェクト」に関しては、後述します。ここでは、「オブジェクト」という日付データを保持するモノという理解で構いません
 
+```javascript:
 var today = new Date()
+```
 
 「日付データ」を「document.writeln」でウェブブラウザの画面に表示しました
 
+```javascript:
 document.writeln(today.toLocaleString());
+```
 
 これにより、ウェブブラウザの画面に本日の日付が表示されました
 
@@ -200,7 +194,7 @@ HTMLとJavaScriptを利用してウェブブラウザの画面で動作するプ
 
 ファイル名の最後の部分
 
-実行方法
+#### 実行方法
 
 「js」の場合
 
@@ -213,9 +207,4 @@ HTMLとJavaScriptを利用してウェブブラウザの画面で動作するプ
 「Preview」をクリック
 
 画面右側にHTMLファイルが表示されます
-
-ー  －
-
-All Rights Reserved By Code of Genius
-
 

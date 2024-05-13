@@ -123,7 +123,9 @@ Gmailにログインしているうえで、「Googleでログイン」をクリ
 
 タブで開かれている領域に以下のような文字を入力してエンターキーをクリックします
 
+```bash:
 git clone https://github.com/programmingkids/js-level1.git
+```
 
 ※「git」の後ろ、「clone」の後ろ、に半角スペースが1個入力する必要があります
 
