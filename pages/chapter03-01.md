@@ -16,7 +16,7 @@ console.logを利用して、簡単な計算を行いましょう。たし算、
 ```javascript:/js-level1/chapter03/work01.js
 console.log(5 + 2);
 console.log(5 - 2);
-console.log(5 \* 2);
+console.log(5 * 2);
 console.log(5 / 2);
 console.log(5 % 2);
 ```
@@ -66,10 +66,10 @@ console.log(5 % 2);
 先ほどの例よりも、すこしだけ複雑な計算を行います。数学と同じように「（）」を利用して計算の優先順位を変更します。以下のプログラムを作成して実行しましょう
 
 ```javascript:/js-level1/chapter03/work02.js
-console.log(2 + 2 \* 2);
-console.log((2 + 2) \* 2);
-console.log(6 - 2 \* 2);
-console.log((6 - 2) \* 2);
+console.log(2 + 2 * 2);
+console.log((2 + 2) * 2);
+console.log(6 - 2 * 2);
+console.log((6 - 2) * 2);
 ```
 
 ##### 実行結果
@@ -89,7 +89,7 @@ console.log((6 - 2) \* 2);
 「2 × 2」 が行われて「4」、その後、「2 + 4」が実行されて「6」となります
 
 ```javascript:
-console.log(2 + 2 \* 2);
+console.log(2 + 2 * 2);
 ```
 
 #### 丸カッコ（）が優先して計算される
@@ -97,7 +97,7 @@ console.log(2 + 2 \* 2);
 （）内が先に計算されます。（2 + 2)が行われて「4」、「4 \* 2」が実行されて「8」となります
 
 ```javascript:
-console.log((2 + 2) \* 2);
+console.log((2 + 2) * 2);
 ```
 
 * * *
@@ -107,7 +107,7 @@ console.log((2 + 2) \* 2);
 「2 x 2」が行われて「4」、その後、「6 - 4」が実行されて「2」となります
 
 ```javascript:
-console.log(6 - 2 \* 2);
+console.log(6 - 2 * 2);
 ```
 
 #### 丸カッコ（）が優先して計算される
@@ -115,7 +115,7 @@ console.log(6 - 2 \* 2);
 （）が先に計算されます。(6 - 2)が行われて「4」、「4 x 2」が実行されて「8」となります
 
 ```javascript:
-console.log((6 - 2) \* 2);
+console.log((6 - 2) * 2);
 ```
 
 * * *
@@ -282,7 +282,7 @@ btn.onclick = function() {
 
 #### 「=」ボタンを取得する
 
-まずは、「=」ボタンを取り出す処理を行います。「=」ボタンにはHTMLで以下のように設定されています。<button>のid属性で「btn」という値が割り当てられています
+まずは、「=」ボタンを取り出す処理を行います。「=」ボタンにはHTMLで以下のように設定されています。\<button\>のid属性で「btn」という値が割り当てられています
 
 ##### HTML部分
 ```javascript:
@@ -337,7 +337,7 @@ btn.onclick = function() {
 
 「parseInt」は文字列を数字に変換する処理です。入力ボックスから取得した値は「文字列」です。そのため、「parseInt」を利用して、「文字列」を「数字」に変換します。その上で、「number1」と「number2」を合計します。合計した結果を変数「answer」に代入します
 
-###### JavaScript部分
+##### JavaScript部分
 ```javascript:
     var answer = parseInt(number1) + parseInt(number2);
 ```
@@ -346,7 +346,7 @@ btn.onclick = function() {
 
 「answer」の値を、テキストボックス「answer」に代入します
 
-###### JavaScript部分
+##### JavaScript部分
 ```javascript:
     document.getElementById("answer").value = answer;
 ```
