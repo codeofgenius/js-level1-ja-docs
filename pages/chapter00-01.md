@@ -5,7 +5,7 @@ description: 00章_はじめる前に / はじめる前に / JavaScriptレベル
 ---
 
 
-著作権の説明
+## 著作権の説明
 
 ### 著作権について
 
@@ -27,7 +27,7 @@ description: 00章_はじめる前に / はじめる前に / JavaScriptレベル
 
 * * *
 
-0章 はじめる前に
+## 0章 はじめる前に
 
 JavaScriptというプログラム言語を利用して簡単なプログラムを作成します。いくつかのステップに分けて処理を作成します。この学習では基本的な文法の習得を目指します
 
@@ -150,9 +150,4 @@ git clone https://github.com/programmingkids/js-level1.git
 これで「0章」は終わりです。「1章」の学習に進みましょう
 
 正しく取得できなかった場合、先生に伝えてください。先生が対応します
-
-ー  －
-
-All Rights Reserved By Code of Genius
-
 
