@@ -244,7 +244,7 @@ JavaScriptは1文ずつ解釈されて実行されます。各命令文の末尾
 console.log('Hello')console.log('How are you')
 ```
 
-###### 実行結果
+##### 実行結果
 ```javascript:nofile
 Uncaught SyntaxError: Unexpected identifier
 ```
@@ -265,7 +265,7 @@ JavaScriptでは「//」（スラッシュが二つ）という記号から、�
 console.log("Hello");
 ```
 
-実行結果（コメントはプログラムとして処理されない）
+##### 実行結果（コメントはプログラムとして処理されない）
 ```javascript:
 Hello
 ```
