@@ -132,7 +132,7 @@ document.writeln(today.toLocaleString());
 
 「work02.html」で実行したプログラムを解説します
 
-HTMLファイル内で「JavaScript」を作成する場合、<script>タグに囲まれた部分にプログラムを作成します。今回のファイルは以下の部分が<script>タグに囲まれています
+HTMLファイル内で「JavaScript」を作成する場合、\<script\>タグに囲まれた部分にプログラムを作成します。今回のファイルは以下の部分が\<script\>タグに囲まれています
 
 ##### <script>タグに囲まれた部分にJavaScriptのプログラム
 ```javascript:
@@ -142,6 +142,7 @@ HTMLファイル内で「JavaScript」を作成する場合、<script>タグに�
 
 </script>
 ```
+
 ##### <h1>タグを表示する処理
 まずは、以下のような処理があります。これは画面に「<h1>Hello JavaScript</h1>」を表示するための処理です。「document.writeln」という命令で、ウェブブラウザの画面に文字を表示することができます
 
