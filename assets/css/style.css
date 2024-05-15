@@ -147,7 +147,7 @@ h3 {
   color: var(--bs-info);
   text-align: start;
   font-size: 1.8em;
-  font-weight: bold;
+  font-weight: normal;
   padding: 10px 0 10px 10px;
   margin-top:1em;
   margin-bottom: 1em;
@@ -157,8 +157,9 @@ h4 {
   color: #fff;
   text-align: start;
   font-size: 1.3em;
+  font-weight: normal;
   padding: 15px 10px 15px 10px;
-  margin-top:1em;
+  margin-top:1.5em;
   margin-bottom: 1em;
 }
 h5 {
@@ -167,6 +168,7 @@ h5 {
   color: var(--bs-info);
   text-align: start;
   font-size: 1em;
+  font-weight: normal;
   padding: 10px 0 10px 10px;
   margin-bottom: 1em;
 }
@@ -175,6 +177,7 @@ h6 {
   color: #fff;
   text-align: start;
   font-size: 0.6em;
+  font-weight: normal;
   padding: 10px 10px 10px 10px;
   margin-bottom: 0.5em;
   background: linear-gradient(transparent 0%, var(--bs-danger) 0%);
