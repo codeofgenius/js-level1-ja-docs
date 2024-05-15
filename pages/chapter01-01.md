@@ -134,7 +134,7 @@ document.writeln(today.toLocaleString());
 
 HTMLファイル内で「JavaScript」を作成する場合、\<script\>タグに囲まれた部分にプログラムを作成します。今回のファイルは以下の部分が\<script\>タグに囲まれています
 
-##### <script>タグに囲まれた部分にJavaScriptのプログラム
+##### \<script\>タグに囲まれた部分にJavaScriptのプログラム
 ```javascript:
 <script>
 
