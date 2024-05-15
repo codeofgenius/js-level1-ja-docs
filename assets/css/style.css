@@ -140,6 +140,14 @@ h2 {
   margin-bottom: 1em;
 }
 h3 {
+  border-bottom: 2px solid var(--bs-info);
+  color: var(--bs-info);
+  text-align: start;
+  font-size: 2em;
+  padding: 10px 0 10px 5px;
+  margin-bottom: 1em;
+}
+h4 {
   background-color: var(--bs-dark);
   color: #fff;
   text-align: start;
@@ -148,26 +156,35 @@ h3 {
   margin-top: 2em;
   margin-bottom: 1em;
 }
-h4 {
-  border-bottom: 2px solid var(--bs-info);
+h5 {
+  background-color: var(--bs-info-bg-subtle);
+  border-left: 2px solid var(--bs-info);
   color: var(--bs-info);
   text-align: start;
   font-size: 1em;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 10px 5px;
   margin-bottom: 1em;
 }
-h5 {
+h6 {
   display: inline-block;
   color: #fff;
   text-align: start;
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding: 10px 10px 10px 10px;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.5em;
   background: linear-gradient(transparent 0%, var(--bs-danger) 0%);
   border-radius: 5px;
 }
-h6 {
+em1 {
   background-color: var(--bs-primary);
+  color: #fff;
+  text-align: start;
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 2em;
+}
+em2 {
+  background-color: var(--bs-success);
   color: #fff;
   text-align: start;
   font-size: 1em;
