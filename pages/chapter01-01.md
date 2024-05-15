@@ -89,7 +89,7 @@ console.log("Hello JavaScript");
 
 「HTML」ファイルを実行する場合は手順が少し異なります。HTMLファイルを実行する方法を試しましょう。まずは、「work02.html」のファイルを開きましょう
 
-```javascript:/js-level1/chapter01/work02.html
+```html:/js-level1/chapter01/work02.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,7 +135,7 @@ document.writeln(today.toLocaleString());
 HTMLファイル内で「JavaScript」を作成する場合、\<script\>タグに囲まれた部分にプログラムを作成します。今回のファイルは以下の部分が\<script\>タグに囲まれています
 
 ##### \<script\>タグに囲まれた部分にJavaScriptのプログラム
-```javascript:
+```html:
 <script>
 
 ここにJavaScriptのプログラムを作成します
