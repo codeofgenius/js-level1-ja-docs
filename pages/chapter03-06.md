@@ -61,13 +61,13 @@ btn.onclick = function() {
 
 「ワーク5」で作成したのは、
 
-<div class="em1">
+<div class="em2">
 ボタンがクリックされると「number1」と「number2」の「たし算」の答えを「answer」代入する
 </div>
 
 でした。今回作成するのはほとんど同じです
 
-<div class="em1">
+<div class="em2">
 ボタンがクリックされると「number1」と「number2」の「かけ算」の答えを「answer」代入する
 </div>
 
@@ -77,7 +77,10 @@ btn.onclick = function() {
 2. 「number2」のタグに入力された値を取り出す
 3. 「number1」の値と「number2」の値をかけ算した「答え」を計算する
 4. 「answer」のタグに「答え」を代入する
-5. 「ワーク5」で作成した処理を参考にしながら、「たし算」を「かけ算」に変更するだけで完成します
+
+<div class="em1">
+「ワーク5」で作成した処理を参考にしながら、「たし算」を「かけ算」に変更するだけで完成します
+</div>
 
 
 
