@@ -30,7 +30,7 @@ description: 3章 計算しよう ワーク6 練習問題 かけ算 / 計算し�
 「ワーク5」に作成した処理は「たし算」でした。ここで作成する処理は「かけ算」です。基本的な処理の流れは同じです。たし算では「＋」記号で計算しました。かけ算にするためには、「一文字」だけ記号を変更する必要があります
 </div>
 
-```javascript:/js-level1/chapter03/work06.html
+```html:/js-level1/chapter03/work06.html
 <!DOCTYPE html>
 <html>
 <head>
