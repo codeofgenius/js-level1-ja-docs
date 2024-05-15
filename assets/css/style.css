@@ -140,10 +140,11 @@ h2 {
   margin-bottom: 1em;
 }
 h3 {
-  border-bottom: 2px solid var(--bs-info);
+  border-bottom: 4px solid var(--bs-info);
   color: var(--bs-info);
   text-align: start;
   font-size: 1.8em;
+  font-weight: bold;
   padding: 10px 0 10px 10px;
   margin-top:1em;
   margin-bottom: 1em;
@@ -152,7 +153,7 @@ h4 {
   background-color: var(--bs-dark);
   color: #fff;
   text-align: start;
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding: 15px 10px 15px 10px;
   margin-bottom: 1em;
 }
