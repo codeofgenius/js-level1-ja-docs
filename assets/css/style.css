@@ -177,7 +177,7 @@ h6 {
   background: linear-gradient(transparent 0%, var(--bs-danger) 0%);
   border-radius: 5px;
 }
-em1 {
+.em1 {
   background-color: var(--bs-primary);
   color: #fff;
   text-align: start;
@@ -185,7 +185,7 @@ em1 {
   padding: 10px;
   margin-bottom: 2em;
 }
-em1-outline {
+.em1-outline {
   border: 1px solid var(--bs-primary);
   color: var(--bs-primary);
   text-align: start;
@@ -193,7 +193,7 @@ em1-outline {
   padding: 10px;
   margin-bottom: 2em;
 }
-em2 {
+.em2 {
   background-color: var(--bs-success);
   color: #fff;
   text-align: start;
@@ -201,7 +201,7 @@ em2 {
   padding: 10px;
   margin-bottom: 2em;
 }
-em2-outline {
+.em2-outline {
   border-color: 1px solid var(--bs-success);
   color: var(--bs-success);
   text-align: start;
