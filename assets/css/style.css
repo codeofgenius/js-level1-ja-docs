@@ -143,8 +143,9 @@ h3 {
   border-bottom: 2px solid var(--bs-info);
   color: var(--bs-info);
   text-align: start;
-  font-size: 1.5em;
-  padding: 10px 0 10px 5px;
+  font-size: 1.8em;
+  padding: 10px 0 10px 10px;
+  margin-top:1em;
   margin-bottom: 1em;
 }
 h4 {
@@ -152,17 +153,16 @@ h4 {
   color: #fff;
   text-align: start;
   font-size: 1.5em;
-  padding: 10px 10px 10px 5px;
-  margin-top: 2em;
+  padding: 15px 10px 15px 10px;
   margin-bottom: 1em;
 }
 h5 {
   background-color: var(--bs-info-bg-subtle);
-  border-left: 2px solid var(--bs-info);
+  border-left: 4px solid var(--bs-info);
   color: var(--bs-info);
   text-align: start;
   font-size: 1em;
-  padding: 10px 0 10px 5px;
+  padding: 10px 0 10px 10px;
   margin-bottom: 1em;
 }
 h6 {
