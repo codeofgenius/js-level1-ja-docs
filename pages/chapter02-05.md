@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 2章 画面に表示してみよう ワーク5 練習問題 / 画面に表示してみよう / JavaScriptレベル1
+title: 2章_画面に表示してみよう_ワーク5_練習問題 / 画面に表示してみよう / JavaScriptレベル1
 description: 2章 画面に表示してみよう ワーク5 練習問題 / 画面に表示してみよう / JavaScriptレベル1
 ---
 

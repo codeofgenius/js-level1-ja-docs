@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 3章 計算しよう ワーク2 簡単な計算をしてみよう / 計算しよう / JavaScriptレベル1
+title: 3章_計算しよう_ワーク2_簡単な計算をしてみよう / 計算しよう / JavaScriptレベル1
 description: 3章 計算しよう ワーク2 簡単な計算をしてみよう / 計算しよう / JavaScriptレベル1
 ---
 

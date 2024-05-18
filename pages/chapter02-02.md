@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 2章 画面に表示してみよう ワーク2 2行の処理 / 画面に表示してみよう / JavaScriptレベル1
+title: 2章_画面に表示してみよう_ワーク2_2行の処理 / 画面に表示してみよう / JavaScriptレベル1
 description: 2章 画面に表示してみよう ワーク2 2行の処理 / 画面に表示してみよう / JavaScriptレベル1
 ---
 

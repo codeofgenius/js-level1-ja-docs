@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 3章 計算しよう ワーク6 練習問題 かけ算 / 計算しよう / JavaScriptレベル1
+title: 3章_計算しよう_ワーク6_練習問題_かけ算 / 計算しよう / JavaScriptレベル1
 description: 3章 計算しよう ワーク6 練習問題 かけ算 / 計算しよう / JavaScriptレベル1
 ---
 

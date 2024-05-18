@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 3章 計算しよう ワーク1 四則演算の計算をしてみよう / 計算しよう / JavaScriptレベル1
+title: 3章_計算しよう_ワーク1_四則演算の計算をしてみよう / 計算しよう / JavaScriptレベル1
 description: 3章 計算しよう ワーク1 四則演算の計算をしてみよう / 計算しよう / JavaScriptレベル1
 ---
 

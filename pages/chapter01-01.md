@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 01章_ワークスペースの操作説明 / ワークスペースの操作説明 / JavaScriptレベル1
+title: 01章_ワークスペースの操作説明_ワークスペースの操作説明 / ワークスペースの操作説明 / JavaScriptレベル1
 description: 01章_ワークスペースの操作説明 / ワークスペースの操作説明 / JavaScriptレベル1
 ---
 
